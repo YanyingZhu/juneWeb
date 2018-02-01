@@ -1,0 +1,346 @@
+body{
+    height:1500px;
+    margin:0;
+    padding:0;
+}
+
+.nav{
+    overflow: hidden;
+    padding-top: 5px;
+    background-color:rgba(0,0,0,0.6);
+    position:fixed;
+    width:100%
+    
+}
+
+
+.nav a{
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 10px 14px;
+  text-decoration: none;
+  font-size: 14px;
+}
+    
+.nav a:hover {
+	 border-bottom: solid 2px #fff;
+}
+
+.nav .icon {
+  display: none;
+}
+
+
+
+.backg{
+    background-image: url(../img/ex-bg.jpg);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    /*background-color: #FEEFEF;*/
+    background-size: auto;
+}
+
+.backg p{
+    margin-bottom: 10px;
+    margin-top:10px;
+    margin-left: 50px;
+    font-size: 17px;
+    color:#ffffff;
+    font-weight: bold;
+    
+}
+.download {
+    text-align: center;
+    
+}
+
+.download a{
+    border-style: solid;
+    border-color: #ffff;
+    /*box-shadow: 3px 3px 3px grey;*/
+    /*background-color: #ff5555;*/
+    padding: 10px;
+    color: #ffffff;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.download a:hover{
+    text-decoration: none;
+    background-color: #ffffff;
+    color:#000000;
+    font-weight: bold;
+    
+}
+
+.backg img{
+    width:100%;
+    height:auto;
+    text-align: center;
+}
+.row-1{
+    
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+.column { 
+    border-style: solid;
+    border-color: #ffff;
+    /*box-shadow: 5px 5px 3px grey;*/
+    margin-left:60px;
+    background-color: #00000085;
+    float: left;
+    width: 40%;
+    height: 320px; /* Should be removed. Only for demonstration */
+}
+.column-1 {
+   /* box-shadow: 5px 5px 3px grey;*/
+    margin-left:60px;
+    margin-top: 40px;
+    float: left;
+    width: 25%;
+    padding: 10px;
+    height: 250px; /* Should be removed. Only for demonstration */
+}
+.column-2{
+    margin-bottom: 10px;
+    margin-left:125px;
+    /*background-color: #FEEFEF;*/
+    float: left;
+    width: 40%;
+    height: 40px; 
+    
+}
+.port p{
+    text-align: center;
+    margin-top: 60px;
+    font-weight: bold;
+    font-size: 50px;
+}
+}
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+ .column-3 {
+    -ms-flex: 25%; /* IE10 */
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+}
+.column-4{
+    margin-left:20px;
+    float: left;
+    width: 60%;
+    padding: 10px;
+    height: 400px; 
+}
+
+.column-4 img{
+     -webkit-transition: all 2s ease;
+     -moz-transition: all 2s ease;
+      -ms-transition: all 2s ease;
+          transition: all 2s ease;
+}
+.column-4 img:hover{
+     transform: scale(1.05);
+}
+.column-5 a {
+   text-decoration: none;
+}
+.column-4 a {
+   text-decoration: none;
+}
+.travel a h2:hover{
+   text-decoration: none;
+   border-bottom: 2px solid #ce3c98;
+}
+.hu a h2:hover{
+    text-decoration: none;
+   border-bottom: 2px solid #51d996;
+    
+}
+.foodtip a h2:hover{
+   text-decoration: none;
+   border-bottom: 2px solid #fbcc0d;
+    
+}
+.column-5{
+    float: left;
+    width: 30%;
+    padding: 10px;
+    height: 300px;  
+}
+.me{
+    padding-bottom: 40px;
+    background-color: #000;
+    padding-top: 40px;
+}
+
+.me p {
+    color: #fff;
+    margin-bottom: 10px;
+    margin-top:10px;
+    margin-left: 50px;
+    font-size: 17px;
+}
+.travel {   
+ margin-top: 150px;
+}
+.hu{
+    margin-left: 100px;
+    margin-top: 250px;
+    margin-bottom: -400px;
+}
+.hu-img {
+    margin-top:100px;
+}
+
+.food-tip{
+    margin-top: 150px;
+}
+.foodtip{
+    margin-top: 300px;
+}
+.column-3 img {
+    width:100%;
+    margin-top: 8px;
+    vertical-align: middle;
+}
+.footer{
+    padding: 40px;
+    background-color: #000000;
+}
+.tb-offset{
+    padding-top: 30px;
+}
+.tb-offset p{
+    text-align: center;
+    color: #ffffff;
+    font-family: "Times New Roman", Times, serif;
+    font-style: italic;
+}
+
+.footer ul{
+    list-style-type: none;
+    text-align: center;
+}
+.footer li{
+    margin:20px;
+    display: inline;
+}
+.urlImg-1 img{
+    width:40px;
+}
+ 
+/* Responsive layout - makes a two column-layout instead of four columns */
+
+@media (max-width: 800px) {
+    .footer ul{
+        margin-top: 30px;
+        padding: 0px;
+        -ms-flex: 50%;
+        flex: 50%;
+        max-width:100%;
+    }
+}
+@media (max-width: 800px) {
+    .column-3 {
+        -ms-flex: 50%;
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+    .column-3 {
+        -ms-flex: 100%;
+        flex: 100%;
+        max-width: 100%;
+    }
+}
+@media (max-width: 600px) {
+    .column-5{
+        margin-top:0px;
+        max-width: 100%;
+        margin:15px;
+        width: 100%;
+         -ms-flex: 100%;
+        flex: 100%;
+        height:auto;
+        
+    }
+}
+@media (max-width: 600px) {
+    .column-4 {
+        max-width: 100%;
+        margin:15px;
+        width: 100%;
+         -ms-flex: 100%;
+        flex: 100%;
+        height:auto;
+        
+    }
+}
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+    .column {
+        margin:15px;
+        width: 100%;
+         -ms-flex: 100%;
+        flex: 100%;
+        height:auto;
+        margin-top: 30px;
+    }
+}
+@media (max-width: 600px) {
+    .column-1 {
+        margin-top: 10px;
+        margin-left:40px;
+        width: 80%;
+         -ms-flex: 100%;
+        flex: 100%;
+        height:auto;
+    }
+}
+
+@media (max-width: 600px) {
+    .column-2 {
+        margin-top: 10px;
+        margin-left:40px;
+        width: 80%;
+         -ms-flex: 100%;
+        flex: 100%;
+        height:auto;
+    }
+}
+@media screen and (max-width: 600px) {
+  .nav a:not(:first-child) {display: none;}
+  .nav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .nav.responsive {position: fixed;}
+  .nav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+  .nav.responsive a { 
+    float: none;
+    display:block;
+    text-align:left; 
+}
+    
+
